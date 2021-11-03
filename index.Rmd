@@ -1,0 +1,165 @@
+---
+title: 
+author: 
+date: 
+output:
+  html_document:
+    css: "FAQ_test.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<h1>
+Canadian Aquatic Barriers Database
+</h1>
+
+<h2>
+Frequently Asked Questions
+</h2>
+
+&nbsp;
+
+<button type="button" class="collapsible">Q: What is the Canadian Aquatic Barriers Database (CABD)?</button>
+
+<div class="content">
+  <p>A: The CABD is a standardized database of barriers to freshwater connectivity across Canada being developed by the Canadian Wildlife Federation. The database is designed to support large-scale policy and reporting work, restoration planning and prioritization, infrastructure asset management, research and monitoring programs, and education and public outreach initiatives.</p>
+</div>
+
+<button type="button" class="collapsible">Q: How can I access the CABD? Do I need any special software?</button>
+
+<div class="content">
+  <p>A: You can access the CABD through any browser by visiting [https://aquaticbarriers.ca/](https://aquaticbarriers.ca/). Additional software is not required to explore the data. If you’d like to use software like Google Earth or ArcGIS to explore further, the data will be available for download in a variety of file formats as part of a future release.</p>
+</div>
+
+<button type="button" class="collapsible">Q: What kind of data is available?</button>
+
+<div class="content">
+  <p>A: Data related to dams, waterfalls, fishways, and hydrographic (stream, river, and lake) networks are currently available. For each dataset, we’ve compiled a set of information describing features that can be used for further analysis, such as dam use, construction type, waterfall height, fishway type, and construction year. A complete list of attributes can be found here: [link to simplified data dictionary]</p>
+</div>
+
+<button type="button" class="collapsible">Q: What regions are data available for?</button>
+
+<div class="content">
+  <p>A: At launch, we have data available for eight pilot regions across Canada and will release new data periodically until national coverage is complete. Our eight pilot regions are:</p>
+<ul>
+  <li>Bulkley-Morice Rivers, British Columbia</li>
+  <li>Berland-Wildhay Rivers, Alberta</li>
+  <li>Grand-Credit Rivers, Ontario</li>
+  <li>Upper Ottawa River (Kipawa), Ontario/Quebec</li>
+  <li>Richelieu River, Quebec</li>
+  <li>Nashwaak-Central Saint John Rivers, New Brunswick</li>
+  <li>Annapolis River, Nova Scotia</li>
+  <li>Lower Humber River, Newfoundland and Labrador </li>
+</ul>
+
+<p>For more information and a map of these pilot regions across Canada, please see the Updates section of the CABD project page on our website: https://cwf-fcf.org/en/explore/fish-passage/aquatic-barrier-database.html.</p>
+</div>
+
+<button type="button" class="collapsible">Q: When will data be released for my region?</button>
+
+<div class="content">
+  <p>A: We plan to release new data on a regional basis every few months. The next region planned for release is Alberta in December 2021, and we plan to release the remaining provinces and territories in the following order:</p>
+<ul>
+  <li>Atlantic Canada (NB, NL, NS, PEI)</li>
+  <li>British Columbia</li>
+  <li>Ontario</li>
+  <li>Quebec</li>
+  <li>Saskatchewan</li>
+  <li>Manitoba</li>
+  <li>The Northern Territories (NWT,NU,YT)</li>
+</ul>
+
+</div>
+
+<button type="button" class="collapsible">Q: Where does the data in the CABD come from?</button>
+
+<div class="content">
+  <p>A: The data in the CABD has been compiled from a variety of open or acquirable datasets. For a full list of our data sources, please visit: [https://aquaticbarriers.ca/data-sources](https://aquaticbarriers.ca/data-sources).</p>
+</div>
+
+<button type="button" class="collapsible">Q: What can I use the CABD for?</button>
+
+<div class="content">
+  <p>A: We encourage you to use the CABD and its data for any projects where you need high-quality data about barriers and stream networks. Some opportunities to use the CABD in your work might include:</p>
+<ul>
+<li>Reporting on the state of fish and fish habitat in a watershed</li>
+<li>Prioritizing barriers for remediation to improve fish passage</li>
+<li>Monitoring the effectiveness of fish passage improvement projects</li>
+<li>Creating an inventory of barrier infrastructure locations and conditions</li>
+</div>
+
+<button type="button" class="collapsible">Q: Are there any usage conditions on how I can use this data?</button>
+
+<div class="content">
+  <p>A: Data in the CABD is made available through the [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. This license allows you to share and adapt this data for any purpose, as long as you provide proper credit and distribute any derivative data under the same CC-BY-SA4.0 license.</p>
+</div>
+
+<button type="button" class="collapsible">Q: Are there training videos or instructions for how to use the CABD?</button>
+
+<div class="content">
+  <p>A: We are producing a short instructional video on how to use the CABD, stay tuned!.</p>
+</div>
+
+<button type="button" class="collapsible">Q: How do I download barrier data?</button>
+
+<div class="content">
+  <p>A: You can download barrier data by expanding the Export Data tab on the left-hand panel and clicking ‘Current Map View’ to download all points in the current map display as a CSV.</p>
+</div>
+
+<button type="button" class="collapsible">Q: Can I download the hydrographic networks shown in the CABD?</button>
+
+<div class="content">
+  <p>A: We’re working on adding support for downloading hydrographic networks. Until this feature is complete, please send us an email at [cabd@cwf-fcf.org](cabd@cwf-fcf.org) that includes the area where you want to download hydrographic networks, and we will send you a copy of the data for that area.</p>
+</div>
+
+<button type="button" class="collapsible">Q: What updates are planned for the next phase of the CABD?</button>
+
+<div class="content">
+  <p>A: We’re working on a few key steps as part of Phase 2 of the CABD, including expanding the search, filter, and download capabilities, filling data gaps, and adding new barrier types like stream crossings. Once complete, you will be able to search based on barrier name and waterbody name; filter barriers by province/territory, watershed, and selected attributes; and download data as a CSV, shapefile, geopackage, or KML.</p>
+</div>
+
+<button type="button" class="collapsible">Q: I have information about a barrier in my neighborhood. Can I share it with you?</button>
+
+<div class="content">
+  <p>A: Absolutely, anyone can contribute to the CABD! If you know of a barrier dataset or barrier that you don’t see in our database, or have information about existing barriers, please reach out to us at [cabd@cwf-fcf.org](cabd@cwf-fcf.org).</p>
+</div>
+
+<button type="button" class="collapsible">Q: Is the CABD available in French?</button>
+
+<div class="content">
+  <p>A: The CABD is currently only available in English, but we plan to release a French version in Spring 2022.</p>
+</div>
+
+<button type="button" class="collapsible">Q: How is the CABD funded?</button>
+
+<div class="content">
+  <p>A: The Canadian Aquatic Barriers Database is a multi-year project that is supported partially by financial contributions from Fisheries and Oceans Canada and the RBC Foundation.</p>
+</div>
+
+<button type="button" class="collapsible">Q: I want to provide feedback on the CABD. Who should I contact?</button>
+
+<div class="content">
+  <p>A: Please send your feedback or comments by email to [cabd@cwf-fcf.org](cabd@cwf-fcf.org).</p>
+</div>
+
+&nbsp;
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
