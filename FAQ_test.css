@@ -32,11 +32,13 @@ body {
 }
 
 a:link {
-  color: #f43d30;
+  color: #0a4f58;
+  font-weight: bold;
 }
 
 a:visited {
-  color: #f43d30;
+  color: #0a4f58;
+  font-weight: bold;
 }
 
 summary {
