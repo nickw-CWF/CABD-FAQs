@@ -31,8 +31,12 @@ body {
   font-size: 18px;
 }
 
-a {
-  color: #fa5514;
+a:link {
+  color: #f43d30;
+}
+
+a:visited {
+  color: #f43d30;
 }
 
 summary {
@@ -70,13 +74,14 @@ summary {
 }
 
 .collapsible::after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #fa5514;
+  font-family: "FontAwesome";
+  font-weight: 400;
+  color: white;
+  content: '\f067'; /* Unicode character for "plus" sign (+) */
   float: right;
   margin-left: 5px;
 }
 
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: '\f068'; /* Unicode character for "minus" sign (-) */
 }
