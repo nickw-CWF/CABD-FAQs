@@ -41,10 +41,10 @@ a:visited {
   font-weight: bold;
 }
 
-summary {
-  font-family: Roboto;
-  font-size: 24px;
-}
+.collapsible:focus-visible {
+    outline: 4px solid red;
+    background: transparent;
+  }
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
